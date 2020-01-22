@@ -5,6 +5,8 @@ ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+# 添加bootstrape-sass
+gem 'bootstrap-sass'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -33,8 +35,9 @@ group :development, :test do
   gem 'sqlite3', '~> 1.4'
   # User RSpec
   gem 'rspec-rails', '~> 3.6.0'
-
   gem 'spring-commands-rspec'
+  gem 'pry'
+  gem 'pry-byebug'
 end
 
 group :development do

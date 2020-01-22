@@ -1,5 +1,10 @@
-<% provide(:title, 'Home') %>
-<h1>NewTwitter</h1>
-<p>
-  This is the home page for the New Twitter
-</p>
+<div class="center jumbotron">
+  <h1>Welcome to the New Twitter</h1>
+
+  <h2>This is the home page</h2>
+
+  <%= link_to 'Sign up now!', '#', class: 'btn btn-lg btn-primary' %>
+</div>
+
+<%= link_to image_tag('ruby.jpeg', alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
